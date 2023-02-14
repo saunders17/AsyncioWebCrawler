@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "asynciowebcrawler"
+version = "0.1.0"
+description = "A web crawler made using asyncio."
+authors = ["Shane Saunders <saunders17@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0" # black - code formatter
+pytest = "^7.2.1" # pytest - testing framework
+# sphinx - documentation generator
+flake8 = "^6.0.0" # flake8 - linter - I think we use flake8 at zoro
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
